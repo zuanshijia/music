@@ -102,7 +102,7 @@ if (server('HTTP_X_REQUESTED_WITH') === 'XMLHttpRequest') {
     }
 
     if (empty($music_response)) {
-        response('', 404, 'ㄟ( ▔, ▔ )ㄏ 没有找到相关信息');
+        response('', 404, 'ㄟ( ▔, ▔ )ㄏ 没有查到信息哦');
     }
 
     if ($music_response['error']) {
